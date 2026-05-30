@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+}
+
+#Jo4Rwf{
+  display: none;
+}
+
+canvas::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px; /* اندازه credit */
+  height: 20px;
+  background: #003FFF; /* هم‌رنگ بک‌گراند یا gradient */
+}
